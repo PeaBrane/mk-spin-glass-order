@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+/out/
+*.partial
+results/controls/partI/
+results/controls/partII/

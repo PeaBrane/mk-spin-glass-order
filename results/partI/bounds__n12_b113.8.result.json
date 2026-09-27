@@ -1,0 +1,54 @@
+{
+ "kind": "mk-partI-check",
+ "verdict": "PASS",
+ "input": {
+  "file": "bounds/n12_b113.8.json",
+  "sha256": "b7bb3cfd30d52b9b18ba5b9544aa1b6e30a08e089a8f6c0632434151ea7c5c41"
+ },
+ "result": {
+  "n": 12,
+  "beta": "569/5",
+  "K": 30,
+  "claims": [
+   "bounds"
+  ],
+  "r0_upper": "3.50565e-3",
+  "rK_upper": "3.34600e-10",
+  "wK_upper": "9.79380e-93",
+  "tail": {
+   "A": "437391984063/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "gamma": "560652489257/1000000000000",
+   "L": "58116130477/6250000000",
+   "R": "96158030607/5000000000"
+  },
+  "T1_Gamma_upper": "5.60653e-1",
+  "T1_margin_gamma_minus_Gamma_lower": "5.59161e-11",
+  "T2_ratio_lower": "2.23004e+2",
+  "ell_s_upper": "2.30623e-2",
+  "ell_b_upper": "2.75296e-2",
+  "S_upper": "7.01129e-3",
+  "P_upper": "4.85986e-3",
+  "pole_lower6": "0.992988",
+  "EA_fixed_lower6": "0.953875",
+  "EQ2_lower6": "0.896551",
+  "ED2_lower6": "0.888053",
+  "order_margin_1_minus_2ell_s_minus_S_lower6": "0.946864",
+  "order_positive": true,
+  "imbalance_positive": true,
+  "digits": 64,
+  "interval_digits": 64
+ },
+ "code": {
+  "partI/check_partI.py": "c02716378ff4c4b70f8125e043bc2bcb4dfc03f4f7fd7ac37d27b6738452a777",
+  "partI/propa.py": "129b0bbaa14ca403651da10147d80833da8db1fa9162c2aebcb8e513a687065c",
+  "partII/mkcert/ivdec.py": "332f6f4da6aac141c0e18fbf2760f5aee60cc3003e627ffcaa3a8c4d258e8dcc",
+  "partII/mkcert/exact.py": "805d3f4b177a6136bdf7808ae71700f06ba67c3521d98d2596b3ce710da9e7b2",
+  "partII/mkcert/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+ },
+ "environment": {
+  "python": "3.12.3",
+  "implementation": "CPython",
+  "system": "Linux"
+ },
+ "wall_s": 0.02474522590637207
+}

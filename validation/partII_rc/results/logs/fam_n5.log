@@ -1,0 +1,24 @@
+{
+ "C1": true,
+ "C2": true,
+ "min_s": 0.0,
+ "min_s_at_t": 0.0,
+ "min_C2_margin": 0.0014233954559101487,
+ "min_C2_margin_over_eps0": 0.4270186367730446,
+ "min_C2_at_t": 3.936,
+ "n_intervals": 3552,
+ "f_c": 0.8570814914143909,
+ "n": 5,
+ "lam": "123/100",
+ "A": "12",
+ "eps0": "1/300",
+ "kappa": 0.945,
+ "xmax": "16/5",
+ "Nx": 1600,
+ "Npad": 2560,
+ "lam_star_float": 1.3376488968661429,
+ "shape_iters": 26,
+ "time_s": 0.6201448440551758
+}
+TIMING wall_s=1.631 user_s=0.786 sys_s=0.066
+EXIT_CODE 0

@@ -1,0 +1,35 @@
+family ok {'C1_min_s': 0.0, 'C2_min_margin_over_eps0': 0.4270186367730446}
+gauss ok 0.0
+level 0 ok  e=9 worst_branch=0.000e+00 t=3s
+level 10 ok  e=9 worst_branch=0.000e+00 t=13s
+level 20 ok  e=5 worst_branch=0.000e+00 t=22s
+{
+ "run": "runs/Q5_n5_b5_6",
+ "n": 5,
+ "beta": "5/6",
+ "J": 25,
+ "checks": {
+  "family": {
+   "C1_min_s": 0.0,
+   "C2_min_margin_over_eps0": 0.4270186367730446
+  },
+  "gauss_worst": 0.0,
+  "entry_worst": -0.007474763773497533,
+  "branch_min_slack": 0.0,
+  "conv_min_knot_slack": 0.0
+ },
+ "steps_checked": 25,
+ "acc_witnesses_checked": 0,
+ "acc_dir": "accw/Q5_n5_b5_6",
+ "verdict": "ALL CHECKS PASSED",
+ "time_s": 22.91484832763672,
+ "versions": {
+  "python": "3.13.13",
+  "mpmath": "1.3.0",
+  "numpy": "2.5.3",
+  "numba": "0.67.0",
+  "mpmath_iv_prec": 200
+ }
+}
+TIMING wall_s=24.073 user_s=30.698 sys_s=0.112
+EXIT_CODE 0

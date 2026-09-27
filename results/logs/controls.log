@@ -1,0 +1,47 @@
+Part I A_div_1000_oneshot_n4: exit 2, rejected as expected: CHECK FAILED: (T2) fails: p^n > A gamma^2 r_K^2 at K = 0
+Part I beta_minus_0.1_n12_order_imbalance: exit 2, rejected as expected: CHECK FAILED: level 25: w >= 1
+Part I beta_minus_0.1_n12_pole: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 0
+Part I beta_minus_0.1_n16_imbalance: exit 2, rejected as expected: CHECK FAILED: (T0) fails: w_K > A r_K^2 at K = 38
+Part I beta_minus_0.1_n16_order: exit 2, rejected as expected: CHECK FAILED: level 25: w >= 1
+Part I beta_minus_0.1_n16_pole: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 0
+Part I beta_minus_0.1_n32_imbalance: exit 2, rejected as expected: CHECK FAILED: (T0) fails: w_K > A r_K^2 at K = 24
+Part I beta_minus_0.1_n32_order: exit 2, rejected as expected: CHECK FAILED: (T0) fails: w_K > A r_K^2 at K = 26
+Part I beta_minus_0.1_n32_pole: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 0
+Part I beta_minus_0.1_n4_order_imbalance: exit 2, rejected as expected: CHECK FAILED: level 269: w >= 1
+Part I beta_minus_0.1_n4_pole: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 0
+Part I beta_minus_0.1_n5_imbalance: exit 2, rejected as expected: CHECK FAILED: (T0) fails: w_K > A r_K^2 at K = 156
+Part I beta_minus_0.1_n5_order: exit 2, rejected as expected: CHECK FAILED: level 72: w >= 1
+Part I beta_minus_0.1_n5_pole: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 0
+Part I beta_minus_0.1_n64_imbalance: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 17
+Part I beta_minus_0.1_n64_order: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 19
+Part I beta_minus_0.1_n64_pole: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 0
+Part I beta_minus_0.1_n6_order_imbalance: exit 2, rejected as expected: CHECK FAILED: level 52: w >= 1
+Part I beta_minus_0.1_n6_pole: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 0
+Part I beta_minus_0.1_n7_order_imbalance: exit 2, rejected as expected: CHECK FAILED: level 38: w >= 1
+Part I beta_minus_0.1_n7_pole: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 0
+Part I beta_minus_0.1_n8_order_imbalance: exit 2, rejected as expected: CHECK FAILED: level 33: w >= 1
+Part I beta_minus_0.1_n8_pole: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 0
+Part I claim_order_on_pole_n4: exit 2, rejected as expected: CHECK FAILED: claim 'order' fails: 1 - 2 ell_s - S <= 0
+Part I drop_last_level_n4_order: exit 2, rejected as expected: CHECK FAILED: (T0) fails: w_K > A r_K^2 at K = 591
+Part I gamma_minus_1e-5_oneshot_n4: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 0
+Part I gamma_times_0.999_n4_order: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 592
+Part I json_float_beta_oneshot_n4: exit 2, rejected as expected: CHECK FAILED: beta: must be a string holding an exact rational (got float)
+Part I tampered_manifest_hash: exit 2, rejected as expected: CHECK FAILED: sha256 mismatch for partI/inputs/bounds/n10_b199.5.json: manifest 3deb00b6ec947c227e6a8efe8b6b1e97996051c9a398850e5c95c636e788683e, file 9effaf4f869ed346c886a7c5fb7219624d64a7e337cfd13e70a09be83aef2d33
+Part I wrong_n_cli_oneshot_n4: exit 2, rejected as expected: CHECK FAILED: input is for n = 4, requested n = 5
+Part I wrong_n_file_n5_order_to_4: exit 2, rejected as expected: CHECK FAILED: level 13: w >= 1
+Part I wrong_n_file_oneshot_n4_to_3: exit 2, rejected as expected: CHECK FAILED: (T1) fails: Gamma(r_K, A r_K^2) > gamma at K = 0
+Part II nc10_law_sha_mismatch: exit 2, rejected as expected: CHECK FAILED: G_4: recorded law sha256 does not match its content
+Part II nc11_family_eps0: exit 2, rejected as expected: CHECK FAILED: (C2) fails at t = 0.0
+Part II nc12_plan_k_ne_sum: exit 2, rejected as expected: CHECK FAILED: plan: step (2, 1, 4) has k != i1 + i2
+Part II nc13_plan_short: exit 2, rejected as expected: CHECK FAILED: plan: last step produces 4 summands, need n = 8
+Part II nc14_manifest_hash: exit 2, rejected as expected: partII/inputs/family_n3.json: FAILED
+Part II nc1_entry_early: exit 2, rejected as expected: CHECK FAILED: entry fails at t = 44.25
+Part II nc2_beta_minus_0.1: exit 2, rejected as expected: CHECK FAILED: entry fails at t = 0.0
+Part II nc3_family_lam: exit 2, rejected as expected: CHECK FAILED: (C2) fails at t = 0.0
+Part II nc4_family_hash: exit 2, rejected as expected: CHECK FAILED: family file SHA-256 does not match the point file
+Part II nc5_wrong_n_cli: exit 2, rejected as expected: CHECK FAILED: point file is for n = 8, requested n = 7
+Part II nc6_wrong_n_file: exit 2, rejected as expected: CHECK FAILED: family: file is for n = 8, requested n = 7
+Part II nc7_json_float: exit 2, rejected as expected: CHECK FAILED: J: must be a JSON integer, got float
+Part II nc8_json_float_mass: exit 2, rejected as expected: CHECK FAILED: X_c: every mass must be a JSON integer
+Part II nc9_family_C1: exit 2, rejected as expected: CHECK FAILED: (C1) fails at t = 0.0
+46 controls, 0 unexpected outcomes (35.7 s)

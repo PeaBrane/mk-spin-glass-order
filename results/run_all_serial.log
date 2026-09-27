@@ -1,0 +1,24 @@
+run_all.sh: Python 3.12.3 on Linux, JOBS=1, OUT=out
+[manifest_partI] exit 0, 0 s: partI/inputs/SHA256SUMS.txt: 55/55 OK
+[manifest_partII] exit 0, 0 s: partII/inputs/SHA256SUMS.txt: 10/10 OK
+[partI_check] exit 0, 4 s: ALL PART I CHECKS PASSED (55 certificates, 3.9s)
+[partI_selftest] exit 0, 0 s: PART I SELFTEST PASSED
+[partII_family_n3] exit 0, 1 s: {"n": 3, "verdict": "ALL FAMILY CHECKS PASSED", "C2_min_margin_over_eps0_float": 0.49130575855313907, "non_stdlib_modules_loaded": [], "cost": {"wall_s": 0.22503447532653809, "peak_rss_MB": 19.67578125}}
+[partII_family_n4] exit 0, 0 s: {"n": 4, "verdict": "ALL FAMILY CHECKS PASSED", "C2_min_margin_over_eps0_float": 0.2844932147416301, "non_stdlib_modules_loaded": [], "cost": {"wall_s": 0.2932300567626953, "peak_rss_MB": 19.5859375}}
+[partII_family_n5] exit 0, 0 s: {"n": 5, "verdict": "ALL FAMILY CHECKS PASSED", "C2_min_margin_over_eps0_float": 0.4270186367730446, "non_stdlib_modules_loaded": [], "cost": {"wall_s": 0.39162635803222656, "peak_rss_MB": 19.8984375}}
+[partII_family_n7] exit 0, 1 s: {"n": 7, "verdict": "ALL FAMILY CHECKS PASSED", "C2_min_margin_over_eps0_float": 0.5103331925527108, "non_stdlib_modules_loaded": [], "cost": {"wall_s": 0.5624852180480957, "peak_rss_MB": 20.76953125}}
+[partII_family_n8] exit 0, 1 s: {"n": 8, "verdict": "ALL FAMILY CHECKS PASSED", "C2_min_margin_over_eps0_float": 0.27226951324977816, "non_stdlib_modules_loaded": [], "cost": {"wall_s": 0.6427340507507324, "peak_rss_MB": 21.28515625}}
+[partII_selftest] exit 0, 4 s: PART II STDLIB SELFTEST PASSED
+[partII_check_n3] ALL CHECKS PASSED: "wall_s": 183.74232840538025
+[partII_check_n4] ALL CHECKS PASSED: "wall_s": 63.16590213775635
+[partII_check_n5] ALL CHECKS PASSED: "wall_s": 45.766759634017944
+[partII_check_n7] ALL CHECKS PASSED: "wall_s": 41.01921319961548
+[partII_check_n8] ALL CHECKS PASSED: "wall_s": 37.68428611755371
+[partII_points] 371 s wall for the five points with JOBS=1
+[controls] exit 0, 50 s: 46 controls, 0 unexpected outcomes (49.5 s)
+[tables] exit 0, 0 s: wrote partI_thresholds.tex, partI_oneshot.tex, partII_points.tex, table_sources.md to out/tables (97 numbers)
+[compare_reference] exit 0, 0 s: 65/65 result files identical to the reference (timings and environment ignored)
+[tables] partI_thresholds.tex identical to the committed tables/partI_thresholds.tex
+[tables] partI_oneshot.tex identical to the committed tables/partI_oneshot.tex
+[tables] partII_points.tex identical to the committed tables/partII_points.tex
+ALL VERIFICATIONS PASSED

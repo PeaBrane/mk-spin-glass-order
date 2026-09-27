@@ -1,0 +1,7 @@
+1. kappa_g: Irwin-Hall = Eulerian formula for g <= 64; kappa_1..4 = 2, 4/3, 11/10, 302/315; monotone
+2. round_up: upward, relative error <= 10^-63, idempotent (2000 random rationals)
+3. Prop A Horner sum >= exact sum, relative excess <= 1e-60 (n = 4, 7, 16, 64)
+4. phi, ln 2 and e^{-x} bounds overlap independent Taylor / decimal-pi enclosures
+5. Gamma at the nine one-shot rows agrees with independent exact-rational values to 1e-9
+6. n = 4, beta = 712.4 (K = 408): EA_fixed, E Q^2, E D^2 bounds equal the Arb checker's to 6 decimals
+PART I SELFTEST PASSED

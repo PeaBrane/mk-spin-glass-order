@@ -1,0 +1,17 @@
+{
+ "kind": "mk-partI-certificate",
+ "n": 8,
+ "couplings": "gaussian",
+ "beta": "57.8",
+ "claims": [
+  "pole"
+ ],
+ "levels": [],
+ "tail": {
+  "A": "1.3834295702e-08",
+  "gamma": "0.999545154378",
+  "L": "1.02284537004",
+  "R": "3.01912358189"
+ },
+ "description": "threshold certificate for the claims listed: float search (per-level Nelder-Mead in log L, log R), bisection on the 0.1 grid; the search did not certify beta - 0.1 (a search outcome, not a proof)"
+}

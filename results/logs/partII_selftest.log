@@ -1,0 +1,9 @@
+1. interval brackets, rational constants and erf enclosures ok
+2. polymul ok
+3. exact |X+Y| CDF formula equals brute-force rectangle areas
+4. constructor outputs pass all exact checks; min(U - float reference) = -5.33e-15
+5. tamper tests rejected as expected
+6. n-fold plan labels verified for n = 2..64; 8 tampered plans rejected
+7. floats, booleans, NaN and wrong per-law hashes are rejected
+8. family verifies; lam x 1.1 and eps0 x 10 rejected
+PART II STDLIB SELFTEST PASSED

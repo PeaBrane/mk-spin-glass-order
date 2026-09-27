@@ -1,0 +1,13 @@
+gauss: min(bound-exact)=0.000e+00 max=1.890e-05 time 0.03s
+coarsen: min 0.000e+00 max 3.780e-05
+min2: min 0.000e+00 max 9.168e-05
+conv time 0.01s
+conv: max z (emp-bound)/se = 820.36 ; max(bound-emp)=2.322e-04
+branch sb=1 time 1.18s
+branch fine U - ref: min 0.000e+00 max 9.974e-03
+branch law CDF - ref: min 0.000e+00 max 2.059e-02 mean 7.013e-04
+branch sb=4 time 0.02s
+branch fine U - ref: min 0.000e+00 max 2.494e-03
+branch law CDF - ref: min 0.000e+00 max 1.547e-02 mean 4.546e-04
+TIMING wall_s=3.953 user_s=2.224 sys_s=0.093
+EXIT_CODE 0

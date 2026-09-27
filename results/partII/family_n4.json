@@ -1,0 +1,45 @@
+{
+ "kind": "mk-family-check-stdlib",
+ "n": 4,
+ "parameters": {
+  "lam": "1133/1000",
+  "A": "22/5",
+  "eps0": "1/200",
+  "xmax": "16/5",
+  "Nx": "1600",
+  "Npad": "2560",
+  "hc": "1/500"
+ },
+ "inputs": {
+  "family_n4.json": "60a85a795f2883361c8e3b247893bb1ea06f1cbd87dd864a1f3eda9fa6ff5bab"
+ },
+ "code": {
+  "check_family_stdlib.py": "6d4cd92896422d76919fba534424b31ebd0eb7bb6a256179a49dd0ef6e2605ed",
+  "mkcert/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "mkcert/exact.py": "805d3f4b177a6136bdf7808ae71700f06ba67c3521d98d2596b3ce710da9e7b2",
+  "mkcert/family.py": "ff7b2f4e6fec0dcaaf67f7cfacabfae82f151930e01625d20db136a036b6db3b",
+  "mkcert/common.py": "9226351345d7e7ee49e3cacc6a9385bb28f2b0661f5e0a0b000b1df47da9d533"
+ },
+ "result": {
+  "F1_valid_laws": true,
+  "F2_min2_min_knot_slack": "0",
+  "F3_conv_min_knot_slack": "0",
+  "C1_min_s": "0",
+  "C2_min_margin": "7820089940794920522403/5497558138880000000000000",
+  "C2_min_margin_over_eps0": "7820089940794920522403/27487790694400000000000",
+  "C2_argmin_t": "2266/625",
+  "n_intervals": 3411,
+  "f_c": "60610113128375/70368744177664"
+ },
+ "C2_min_margin_over_eps0_float": 0.2844932147416301,
+ "verdict": "ALL FAMILY CHECKS PASSED",
+ "non_stdlib_modules_loaded": [],
+ "environment": {
+  "python": "3.12.3",
+  "system": "Linux"
+ },
+ "cost": {
+  "wall_s": 0.2934684753417969,
+  "peak_rss_MB": 19.5703125
+ }
+}

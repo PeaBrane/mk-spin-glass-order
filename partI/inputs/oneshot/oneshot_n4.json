@@ -1,0 +1,17 @@
+{
+ "kind": "mk-partI-certificate",
+ "n": 4,
+ "couplings": "gaussian",
+ "beta": "525",
+ "claims": [
+  "pole"
+ ],
+ "levels": [],
+ "tail": {
+  "A": "1/100",
+  "gamma": "499833/500000",
+  "L": "5/2",
+  "R": "21/4"
+ },
+ "description": "hand-checkable one-shot pole certificate (K = 0): parameters chosen by hand, gamma = float Gamma rounded up at the 6th decimal"
+}

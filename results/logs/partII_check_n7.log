@@ -1,0 +1,57 @@
+family ok {"F1_valid_laws": true, "F2_min2_min_knot_slack": "0", "F3_conv_min_knot_slack": "0", "C1_min_s": "0", "C2_min_margin": "43837287441543275713573/25769803776000000000000000", "C2_min_margin_over_eps0": "43837287441543275713573/85899345920000000000000", "C2_argmin_t": "2792/625", "n_intervals": 3827, "f_c": "3751258866875/4398046511104", "time_s": 0.5625989437103271, "C2_min_margin_over_eps0_float": 0.5103331925527108}
+{"level": 0, "gauss_worst_upper": 0.0, "e": 7, "median_bin": 50, "atom": 0.0, "phi_upper": 0.777134281588648, "coarsen": 0, "t_branch_bounds": 2.938521385192871, "Omax": 1536, "t_conv": 0.05985736846923828, "t_level": 3.713435411453247}
+{"level": 10, "e": 7, "median_bin": 189, "atom": 3.552713678800501e-15, "phi_upper": 0.36701083482941876, "coarsen": 0, "t_branch_bounds": 1.5049757957458496, "Omax": 1536, "t_conv": 0.12894558906555176, "t_level": 2.539762020111084}
+{"level": 19, "e": 2, "median_bin": 330, "atom": 3.552713678800501e-15, "phi_upper": 0.007809270647203114, "entry_margin": -0.007594499580414432}
+{
+ "n": 7,
+ "beta": "4/7",
+ "verdict": "ALL CHECKS PASSED",
+ "constants": {
+  "S_upper_ceil": "8.08148e+0",
+  "kappa_Q_floor": "2.28808e-16",
+  "log10_kappa_Q_floor": "-15.641",
+  "kappa_C_floor": "3.74942e-14",
+  "log10_kappa_C_floor": "-13.427",
+  "EQ2_lower_floor": "5.23535e-32",
+  "log10_EQ2_lower_floor": "-31.282",
+  "imbalance_lower_floor": "1.40581e-27",
+  "log10_imbalance_lower_floor": "-26.853",
+  "j_first_T_below_half": 14,
+  "j_first_T_below_one": 12,
+  "j_max_summed": 26,
+  "T_upper_first10": [
+   "8.08148e+0",
+   "7.30434e+0",
+   "6.52861e+0",
+   "5.76003e+0",
+   "5.00333e+0",
+   "4.26456e+0",
+   "3.55214e+0",
+   "2.87741e+0",
+   "2.25490e+0",
+   "1.70169e+0"
+  ],
+  "phi_upper_first10": [
+   "7.77135e-1",
+   "7.75735e-1",
+   "7.68582e-1",
+   "7.56702e-1",
+   "7.38762e-1",
+   "7.12426e-1",
+   "6.74730e-1",
+   "6.22511e-1",
+   "5.53209e-1",
+   "4.66425e-1"
+  ],
+  "family_tail_coeffs_upper": {
+   "a1": "4.13685e+0",
+   "a2": "1.91609e+1"
+  },
+  "f_c": "3751258866875/4398046511104",
+  "time_s": 0.005506038665771484
+ },
+ "cost": {
+  "wall_s": 41.77735137939453,
+  "peak_rss_MB": 38.74609375
+ }
+}

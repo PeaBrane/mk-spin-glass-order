@@ -1,0 +1,792 @@
+{
+ "kind": "mk-partI-summary",
+ "manifest": {
+  "file": "SHA256SUMS.txt",
+  "sha256": "57c696728bd6b939d3b32a96e588e6c16b720e9e594533019b4b1d10960f2de0"
+ },
+ "results": {
+  "bounds/n10_b199.5.json": {
+   "verdict": "PASS",
+   "n": 10,
+   "beta": "399/2",
+   "claims": [
+    "bounds"
+   ],
+   "K": 34,
+   "pole": "0.996000",
+   "EA_fixed": "0.974073",
+   "EQ2": "0.941043",
+   "ED2": "0.936300",
+   "result_file": "bounds__n10_b199.5.result.json"
+  },
+  "bounds/n12_b113.8.json": {
+   "verdict": "PASS",
+   "n": 12,
+   "beta": "569/5",
+   "claims": [
+    "bounds"
+   ],
+   "K": 30,
+   "pole": "0.992988",
+   "EA_fixed": "0.953875",
+   "EQ2": "0.896551",
+   "ED2": "0.888053",
+   "result_file": "bounds__n12_b113.8.result.json"
+  },
+  "bounds/n12_b56.9.json": {
+   "verdict": "PASS",
+   "n": 12,
+   "beta": "569/10",
+   "claims": [
+    "bounds"
+   ],
+   "K": 32,
+   "pole": "0.985977",
+   "EA_fixed": "0.847902",
+   "EQ2": "0.695356",
+   "ED2": "0.659965",
+   "result_file": "bounds__n12_b56.9.result.json"
+  },
+  "bounds/n16_b45.4.json": {
+   "verdict": "PASS",
+   "n": 16,
+   "beta": "227/5",
+   "claims": [
+    "bounds"
+   ],
+   "K": 28,
+   "pole": "0.982425",
+   "EA_fixed": "0.804498",
+   "EQ2": "0.619248",
+   "ED2": "0.575237",
+   "result_file": "bounds__n16_b45.4.result.json"
+  },
+  "bounds/n16_b90.8.json": {
+   "verdict": "PASS",
+   "n": 16,
+   "beta": "454/5",
+   "claims": [
+    "bounds"
+   ],
+   "K": 24,
+   "pole": "0.991212",
+   "EA_fixed": "0.947152",
+   "EQ2": "0.880528",
+   "ED2": "0.871702",
+   "result_file": "bounds__n16_b90.8.result.json"
+  },
+  "bounds/n20_b199.5.json": {
+   "verdict": "PASS",
+   "n": 20,
+   "beta": "399/2",
+   "claims": [
+    "bounds"
+   ],
+   "K": 21,
+   "pole": "0.996000",
+   "EA_fixed": "0.982684",
+   "EQ2": "0.957824",
+   "ED2": "0.956322",
+   "result_file": "bounds__n20_b199.5.result.json"
+  },
+  "bounds/n32_b36.0.json": {
+   "verdict": "PASS",
+   "n": 32,
+   "beta": "36",
+   "claims": [
+    "bounds"
+   ],
+   "K": 19,
+   "pole": "0.977836",
+   "EA_fixed": "0.856293",
+   "EQ2": "0.695772",
+   "ED2": "0.670673",
+   "result_file": "bounds__n32_b36.0.result.json"
+  },
+  "bounds/n32_b72.0.json": {
+   "verdict": "PASS",
+   "n": 32,
+   "beta": "72",
+   "claims": [
+    "bounds"
+   ],
+   "K": 17,
+   "pole": "0.988918",
+   "EA_fixed": "0.944440",
+   "EQ2": "0.871158",
+   "ED2": "0.864033",
+   "result_file": "bounds__n32_b72.0.result.json"
+  },
+  "bounds/n4_b1424.8.json": {
+   "verdict": "PASS",
+   "n": 4,
+   "beta": "7124/5",
+   "claims": [
+    "bounds"
+   ],
+   "K": 392,
+   "pole": "0.999440",
+   "EA_fixed": "0.964008",
+   "EQ2": "0.928232",
+   "ED2": "0.915566",
+   "result_file": "bounds__n4_b1424.8.result.json"
+  },
+  "bounds/n4_b530.json": {
+   "verdict": "PASS",
+   "n": 4,
+   "beta": "530",
+   "claims": [
+    "bounds"
+   ],
+   "K": 465,
+   "pole": "0.998494",
+   "EA_fixed": "0.658577",
+   "EQ2": "0.431743",
+   "ED2": "0.350110",
+   "result_file": "bounds__n4_b530.result.json"
+  },
+  "bounds/n4_b540.json": {
+   "verdict": "PASS",
+   "n": 4,
+   "beta": "540",
+   "claims": [
+    "bounds"
+   ],
+   "K": 449,
+   "pole": "0.998522",
+   "EA_fixed": "0.717928",
+   "EQ2": "0.513301",
+   "ED2": "0.439085",
+   "result_file": "bounds__n4_b540.result.json"
+  },
+  "bounds/n4_b550.json": {
+   "verdict": "PASS",
+   "n": 4,
+   "beta": "550",
+   "claims": [
+    "bounds"
+   ],
+   "K": 441,
+   "pole": "0.998549",
+   "EA_fixed": "0.751997",
+   "EQ2": "0.563320",
+   "ED2": "0.494700",
+   "result_file": "bounds__n4_b550.result.json"
+  },
+  "bounds/n4_b560.json": {
+   "verdict": "PASS",
+   "n": 4,
+   "beta": "560",
+   "claims": [
+    "bounds"
+   ],
+   "K": 435,
+   "pole": "0.998575",
+   "EA_fixed": "0.775708",
+   "EQ2": "0.599514",
+   "ED2": "0.535360",
+   "result_file": "bounds__n4_b560.result.json"
+  },
+  "bounds/n4_b709.8.json": {
+   "verdict": "PASS",
+   "n": 4,
+   "beta": "3549/5",
+   "claims": [
+    "bounds"
+   ],
+   "K": 408,
+   "pole": "0.998875",
+   "EA_fixed": "0.890883",
+   "EQ2": "0.791672",
+   "ED2": "0.755770",
+   "result_file": "bounds__n4_b709.8.result.json"
+  },
+  "bounds/n4_b712.4.json": {
+   "verdict": "PASS",
+   "n": 4,
+   "beta": "3562/5",
+   "claims": [
+    "bounds"
+   ],
+   "K": 408,
+   "pole": "0.998880",
+   "EA_fixed": "0.891741",
+   "EQ2": "0.793206",
+   "ED2": "0.757554",
+   "result_file": "bounds__n4_b712.4.result.json"
+  },
+  "bounds/n5_b180.0.json": {
+   "verdict": "PASS",
+   "n": 5,
+   "beta": "180",
+   "claims": [
+    "bounds"
+   ],
+   "K": 116,
+   "pole": "0.995567",
+   "EA_fixed": "0.868008",
+   "EQ2": "0.745762",
+   "ED2": "0.706679",
+   "result_file": "bounds__n5_b180.0.result.json"
+  },
+  "bounds/n5_b360.0.json": {
+   "verdict": "PASS",
+   "n": 5,
+   "beta": "360",
+   "claims": [
+    "bounds"
+   ],
+   "K": 111,
+   "pole": "0.997783",
+   "EA_fixed": "0.956866",
+   "EQ2": "0.911357",
+   "ED2": "0.898170",
+   "result_file": "bounds__n5_b360.0.result.json"
+  },
+  "bounds/n64_b199.5.json": {
+   "verdict": "PASS",
+   "n": 64,
+   "beta": "399/2",
+   "claims": [
+    "bounds"
+   ],
+   "K": 12,
+   "pole": "0.996000",
+   "EA_fixed": "0.986808",
+   "EQ2": "0.965913",
+   "ED2": "0.965986",
+   "result_file": "bounds__n64_b199.5.result.json"
+  },
+  "bounds/n6_b114.9.json": {
+   "verdict": "PASS",
+   "n": 6,
+   "beta": "1149/10",
+   "claims": [
+    "bounds"
+   ],
+   "K": 74,
+   "pole": "0.993055",
+   "EA_fixed": "0.861358",
+   "EQ2": "0.730023",
+   "ED2": "0.691580",
+   "result_file": "bounds__n6_b114.9.result.json"
+  },
+  "bounds/n6_b229.8.json": {
+   "verdict": "PASS",
+   "n": 6,
+   "beta": "1149/5",
+   "claims": [
+    "bounds"
+   ],
+   "K": 70,
+   "pole": "0.996527",
+   "EA_fixed": "0.955157",
+   "EQ2": "0.905705",
+   "ED2": "0.893426",
+   "result_file": "bounds__n6_b229.8.result.json"
+  },
+  "bounds/n7_b199.5.json": {
+   "verdict": "PASS",
+   "n": 7,
+   "beta": "399/2",
+   "claims": [
+    "bounds"
+   ],
+   "K": 53,
+   "pole": "0.996000",
+   "EA_fixed": "0.960198",
+   "EQ2": "0.914316",
+   "ED2": "0.904481",
+   "result_file": "bounds__n7_b199.5.result.json"
+  },
+  "bounds/n8_b154.8.json": {
+   "verdict": "PASS",
+   "n": 8,
+   "beta": "774/5",
+   "claims": [
+    "bounds"
+   ],
+   "K": 45,
+   "pole": "0.994845",
+   "EA_fixed": "0.954383",
+   "EQ2": "0.901035",
+   "ED2": "0.890500",
+   "result_file": "bounds__n8_b154.8.result.json"
+  },
+  "bounds/n8_b77.4.json": {
+   "verdict": "PASS",
+   "n": 8,
+   "beta": "387/5",
+   "claims": [
+    "bounds"
+   ],
+   "K": 48,
+   "pole": "0.989691",
+   "EA_fixed": "0.855868",
+   "EQ2": "0.714970",
+   "ED2": "0.678282",
+   "result_file": "bounds__n8_b77.4.result.json"
+  },
+  "bounds/n9_b199.5.json": {
+   "verdict": "PASS",
+   "n": 9,
+   "beta": "399/2",
+   "claims": [
+    "bounds"
+   ],
+   "K": 38,
+   "pole": "0.996000",
+   "EA_fixed": "0.971334",
+   "EQ2": "0.935737",
+   "ED2": "0.929976",
+   "result_file": "bounds__n9_b199.5.result.json"
+  },
+  "oneshot/oneshot_n12.json": {
+   "verdict": "PASS",
+   "n": 12,
+   "beta": "44",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.981866",
+   "EA_fixed": "-3.887143",
+   "EQ2": "0.000000",
+   "ED2": "-0.012570",
+   "result_file": "oneshot__oneshot_n12.result.json"
+  },
+  "oneshot/oneshot_n16.json": {
+   "verdict": "PASS",
+   "n": 16,
+   "beta": "36",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.977836",
+   "EA_fixed": "-14.619072",
+   "EQ2": "0.000000",
+   "ED2": "-0.015363",
+   "result_file": "oneshot__oneshot_n16.result.json"
+  },
+  "oneshot/oneshot_n32.json": {
+   "verdict": "PASS",
+   "n": 32,
+   "beta": "63/5",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.936675",
+   "EA_fixed": "-97.482421",
+   "EQ2": "0.000000",
+   "ED2": "-0.043894",
+   "result_file": "oneshot__oneshot_n32.result.json"
+  },
+  "oneshot/oneshot_n4.json": {
+   "verdict": "PASS",
+   "n": 4,
+   "beta": "525",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.998480",
+   "EA_fixed": "-8.100489",
+   "EQ2": "0.000000",
+   "ED2": "-0.001054",
+   "result_file": "oneshot__oneshot_n4.result.json"
+  },
+  "oneshot/oneshot_n5.json": {
+   "verdict": "PASS",
+   "n": 5,
+   "beta": "135",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.994089",
+   "EA_fixed": "-3.762497",
+   "EQ2": "0.000000",
+   "ED2": "-0.004097",
+   "result_file": "oneshot__oneshot_n5.result.json"
+  },
+  "oneshot/oneshot_n6.json": {
+   "verdict": "PASS",
+   "n": 6,
+   "beta": "86",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.990722",
+   "EA_fixed": "-5.900505",
+   "EQ2": "0.000000",
+   "ED2": "-0.006431",
+   "result_file": "oneshot__oneshot_n6.result.json"
+  },
+  "oneshot/oneshot_n64.json": {
+   "verdict": "PASS",
+   "n": 64,
+   "beta": "47/5",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.915118",
+   "EA_fixed": "-52.451752",
+   "EQ2": "0.000000",
+   "ED2": "-0.058836",
+   "result_file": "oneshot__oneshot_n64.result.json"
+  },
+  "oneshot/oneshot_n7.json": {
+   "verdict": "PASS",
+   "n": 7,
+   "beta": "68",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.988266",
+   "EA_fixed": "-5.582664",
+   "EQ2": "0.000000",
+   "ED2": "-0.008134",
+   "result_file": "oneshot__oneshot_n7.result.json"
+  },
+  "oneshot/oneshot_n8.json": {
+   "verdict": "PASS",
+   "n": 8,
+   "beta": "59",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.986476",
+   "EA_fixed": "-3.861934",
+   "EQ2": "0.000000",
+   "ED2": "-0.009374",
+   "result_file": "oneshot__oneshot_n8.result.json"
+  },
+  "thresholds/n12_order_imbalance.json": {
+   "verdict": "PASS",
+   "n": 12,
+   "beta": "431/10",
+   "claims": [
+    "order",
+    "imbalance"
+   ],
+   "K": 46,
+   "pole": "0.981487",
+   "EA_fixed": "0.266019",
+   "EQ2": "0.061259",
+   "ED2": "0.002243",
+   "result_file": "thresholds__n12_order_imbalance.result.json"
+  },
+  "thresholds/n12_pole.json": {
+   "verdict": "PASS",
+   "n": 12,
+   "beta": "43",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.981444",
+   "EA_fixed": "-847.957233",
+   "EQ2": "0.000000",
+   "ED2": "-0.012862",
+   "result_file": "thresholds__n12_pole.result.json"
+  },
+  "thresholds/n16_imbalance.json": {
+   "verdict": "PASS",
+   "n": 16,
+   "beta": "36",
+   "claims": [
+    "imbalance"
+   ],
+   "K": 38,
+   "pole": "0.977836",
+   "EA_fixed": "0.290551",
+   "EQ2": "0.072032",
+   "ED2": "0.007699",
+   "result_file": "thresholds__n16_imbalance.result.json"
+  },
+  "thresholds/n16_order.json": {
+   "verdict": "PASS",
+   "n": 16,
+   "beta": "179/5",
+   "claims": [
+    "order"
+   ],
+   "K": 41,
+   "pole": "0.977712",
+   "EA_fixed": "0.149216",
+   "EQ2": "0.016111",
+   "ED2": "-0.015449",
+   "result_file": "thresholds__n16_order.result.json"
+  },
+  "thresholds/n16_pole.json": {
+   "verdict": "PASS",
+   "n": 16,
+   "beta": "357/10",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.977650",
+   "EA_fixed": "-92.681876",
+   "EQ2": "0.000000",
+   "ED2": "-0.015492",
+   "result_file": "thresholds__n16_pole.result.json"
+  },
+  "thresholds/n32_imbalance.json": {
+   "verdict": "PASS",
+   "n": 32,
+   "beta": "74/5",
+   "claims": [
+    "imbalance"
+   ],
+   "K": 24,
+   "pole": "0.946088",
+   "EA_fixed": "0.332456",
+   "EQ2": "0.077587",
+   "ED2": "0.002781",
+   "result_file": "thresholds__n32_imbalance.result.json"
+  },
+  "thresholds/n32_order.json": {
+   "verdict": "PASS",
+   "n": 32,
+   "beta": "27/2",
+   "claims": [
+    "order"
+   ],
+   "K": 26,
+   "pole": "0.940897",
+   "EA_fixed": "0.066045",
+   "EQ2": "0.000048",
+   "ED2": "-0.040967",
+   "result_file": "thresholds__n32_order.result.json"
+  },
+  "thresholds/n32_pole.json": {
+   "verdict": "PASS",
+   "n": 32,
+   "beta": "25/2",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.936169",
+   "EA_fixed": "-111.420879",
+   "EQ2": "0.000000",
+   "ED2": "-0.044245",
+   "result_file": "thresholds__n32_pole.result.json"
+  },
+  "thresholds/n4_order_imbalance.json": {
+   "verdict": "PASS",
+   "n": 4,
+   "beta": "520",
+   "claims": [
+    "order",
+    "imbalance"
+   ],
+   "K": 592,
+   "pole": "0.998465",
+   "EA_fixed": "0.206801",
+   "EQ2": "0.042134",
+   "ED2": "0.001794",
+   "result_file": "thresholds__n4_order_imbalance.result.json"
+  },
+  "thresholds/n4_pole.json": {
+   "verdict": "PASS",
+   "n": 4,
+   "beta": "520",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.998465",
+   "EA_fixed": "-751.653789",
+   "EQ2": "0.000000",
+   "ED2": "-0.001064",
+   "result_file": "thresholds__n4_pole.result.json"
+  },
+  "thresholds/n5_imbalance.json": {
+   "verdict": "PASS",
+   "n": 5,
+   "beta": "1323/10",
+   "claims": [
+    "imbalance"
+   ],
+   "K": 156,
+   "pole": "0.993969",
+   "EA_fixed": "0.281856",
+   "EQ2": "0.076079",
+   "ED2": "0.016177",
+   "result_file": "thresholds__n5_imbalance.result.json"
+  },
+  "thresholds/n5_order.json": {
+   "verdict": "PASS",
+   "n": 5,
+   "beta": "661/5",
+   "claims": [
+    "order"
+   ],
+   "K": 165,
+   "pole": "0.993964",
+   "EA_fixed": "0.169468",
+   "EQ2": "0.026710",
+   "ED2": "-0.004112",
+   "result_file": "thresholds__n5_order.result.json"
+  },
+  "thresholds/n5_pole.json": {
+   "verdict": "PASS",
+   "n": 5,
+   "beta": "661/5",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.993964",
+   "EA_fixed": "-245.408536",
+   "EQ2": "0.000000",
+   "ED2": "-0.004184",
+   "result_file": "thresholds__n5_pole.result.json"
+  },
+  "thresholds/n64_imbalance.json": {
+   "verdict": "PASS",
+   "n": 64,
+   "beta": "54/5",
+   "claims": [
+    "imbalance"
+   ],
+   "K": 17,
+   "pole": "0.926121",
+   "EA_fixed": "0.369614",
+   "EQ2": "0.087460",
+   "ED2": "0.008165",
+   "result_file": "thresholds__n64_imbalance.result.json"
+  },
+  "thresholds/n64_order.json": {
+   "verdict": "PASS",
+   "n": 64,
+   "beta": "99/10",
+   "claims": [
+    "order"
+   ],
+   "K": 19,
+   "pole": "0.919405",
+   "EA_fixed": "0.115011",
+   "EQ2": "0.001184",
+   "ED2": "-0.055864",
+   "result_file": "thresholds__n64_order.result.json"
+  },
+  "thresholds/n64_pole.json": {
+   "verdict": "PASS",
+   "n": 64,
+   "beta": "93/10",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.914205",
+   "EA_fixed": "-26.934351",
+   "EQ2": "0.000000",
+   "ED2": "-0.059468",
+   "result_file": "thresholds__n64_pole.result.json"
+  },
+  "thresholds/n6_order_imbalance.json": {
+   "verdict": "PASS",
+   "n": 6,
+   "beta": "424/5",
+   "claims": [
+    "order",
+    "imbalance"
+   ],
+   "K": 101,
+   "pole": "0.990590",
+   "EA_fixed": "0.256618",
+   "EQ2": "0.061112",
+   "ED2": "0.006084",
+   "result_file": "thresholds__n6_order_imbalance.result.json"
+  },
+  "thresholds/n6_pole.json": {
+   "verdict": "PASS",
+   "n": 6,
+   "beta": "847/10",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.990579",
+   "EA_fixed": "-988.402847",
+   "EQ2": "0.000000",
+   "ED2": "-0.006530",
+   "result_file": "thresholds__n6_pole.result.json"
+  },
+  "thresholds/n7_order_imbalance.json": {
+   "verdict": "PASS",
+   "n": 7,
+   "beta": "67",
+   "claims": [
+    "order",
+    "imbalance"
+   ],
+   "K": 79,
+   "pole": "0.988091",
+   "EA_fixed": "0.243050",
+   "EQ2": "0.053426",
+   "ED2": "0.000936",
+   "result_file": "thresholds__n7_order_imbalance.result.json"
+  },
+  "thresholds/n7_pole.json": {
+   "verdict": "PASS",
+   "n": 7,
+   "beta": "67",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.988091",
+   "EA_fixed": "-80.718413",
+   "EQ2": "0.000000",
+   "ED2": "-0.008255",
+   "result_file": "thresholds__n7_pole.result.json"
+  },
+  "thresholds/n8_order_imbalance.json": {
+   "verdict": "PASS",
+   "n": 8,
+   "beta": "289/5",
+   "claims": [
+    "order",
+    "imbalance"
+   ],
+   "K": 66,
+   "pole": "0.986195",
+   "EA_fixed": "0.270242",
+   "EQ2": "0.065760",
+   "ED2": "0.006867",
+   "result_file": "thresholds__n8_order_imbalance.result.json"
+  },
+  "thresholds/n8_pole.json": {
+   "verdict": "PASS",
+   "n": 8,
+   "beta": "289/5",
+   "claims": [
+    "pole"
+   ],
+   "K": 0,
+   "pole": "0.986195",
+   "EA_fixed": "-59.698534",
+   "EQ2": "0.000000",
+   "ED2": "-0.009569",
+   "result_file": "thresholds__n8_pole.result.json"
+  }
+ },
+ "verdict": "ALL PART I CHECKS PASSED",
+ "count": 55,
+ "environment": {
+  "python": "3.12.3",
+  "implementation": "CPython",
+  "system": "Linux"
+ },
+ "wall_s": 3.8005080223083496
+}

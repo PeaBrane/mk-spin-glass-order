@@ -1,0 +1,5 @@
+family ok {'C1_min_s': 0.0, 'C2_min_margin_over_eps0': 0.5103331925527108}
+gauss ok 0.0
+CHECK FAILED: intermediate accumulator not saved
+TIMING wall_s=4.382 user_s=3.081 sys_s=0.092
+EXIT_CODE 2

@@ -1,0 +1,1 @@
+{"n": 7, "verdict": "ALL FAMILY CHECKS PASSED", "C2_min_margin_over_eps0_float": 0.5103331925527108, "non_stdlib_modules_loaded": [], "cost": {"wall_s": 0.5631234645843506, "peak_rss_MB": 20.80078125}}

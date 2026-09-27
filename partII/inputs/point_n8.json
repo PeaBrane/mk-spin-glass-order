@@ -1,0 +1,43 @@
+{
+ "kind": "mk-bridge-certificate",
+ "n": 8,
+ "beta": "1/2",
+ "T": "2",
+ "grid": {
+  "e0": 7,
+  "N": 4000
+ },
+ "branch": {
+  "s": 4,
+  "sb": 1,
+  "R": 14,
+  "dmax": 12
+ },
+ "family": {
+  "file": "family_n8.json",
+  "sha256": "f97bd41b495924a2c2cd9cec18493f4b9329bcb48c91784251c995886a20851d"
+ },
+ "J": 19,
+ "coarsen": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  1,
+  1,
+  1,
+  0,
+  1
+ ],
+ "fingerprint_chain_sha256": "6aeaa3d063363f2ac61b524c338d841a33db98ab89834d9c8b6fa900f73eae4a"
+}

@@ -1,0 +1,54 @@
+{
+ "kind": "mk-partI-check",
+ "verdict": "PASS",
+ "input": {
+  "file": "thresholds/n64_imbalance.json",
+  "sha256": "b93773eb57897378d013d7b2d9d70b554d404caea955637fa636038afca48e7a"
+ },
+ "result": {
+  "n": 64,
+  "beta": "54/5",
+  "K": 17,
+  "claims": [
+   "imbalance"
+  ],
+  "r0_upper": "3.69392e-2",
+  "rK_upper": "1.02961e-8",
+  "wK_upper": "4.23782e-384",
+  "tail": {
+   "A": "10000001/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "gamma": "48803900687/200000000000",
+   "L": "67658090409/10000000000",
+   "R": "18274817897/1250000000"
+  },
+  "T1_Gamma_upper": "2.44020e-1",
+  "T1_margin_gamma_minus_Gamma_lower": "2.41666e-11",
+  "T2_ratio_lower": "2.07442e+152",
+  "ell_s_upper": "3.15193e-1",
+  "ell_b_upper": "3.78167e-1",
+  "S_upper": "7.38783e-2",
+  "P_upper": "5.12085e-2",
+  "pole_lower6": "0.926121",
+  "EA_fixed_lower6": "0.369614",
+  "EQ2_lower6": "0.087460",
+  "ED2_lower6": "0.008165",
+  "order_margin_1_minus_2ell_s_minus_S_lower6": "0.295736",
+  "order_positive": true,
+  "imbalance_positive": true,
+  "digits": 64,
+  "interval_digits": 64
+ },
+ "code": {
+  "partI/check_partI.py": "c02716378ff4c4b70f8125e043bc2bcb4dfc03f4f7fd7ac37d27b6738452a777",
+  "partI/propa.py": "129b0bbaa14ca403651da10147d80833da8db1fa9162c2aebcb8e513a687065c",
+  "partII/mkcert/ivdec.py": "332f6f4da6aac141c0e18fbf2760f5aee60cc3003e627ffcaa3a8c4d258e8dcc",
+  "partII/mkcert/exact.py": "805d3f4b177a6136bdf7808ae71700f06ba67c3521d98d2596b3ce710da9e7b2",
+  "partII/mkcert/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+ },
+ "environment": {
+  "python": "3.12.3",
+  "implementation": "CPython",
+  "system": "Linux"
+ },
+ "wall_s": 0.02513575553894043
+}

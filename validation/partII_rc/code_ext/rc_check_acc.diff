@@ -1,0 +1,41 @@
+--- code/rc_check.py
++++ code_ext/rc_check_acc.py
+@@ -421,6 +421,7 @@
+     ap.add_argument("--threads", type=int, default=2)
+     ap.add_argument("--out", required=True)
+     ap.add_argument("--spot", type=int, default=20)
++    ap.add_argument("--acc_dir", default=None, help="extension: dir of acc_JJJJ.npz witnesses")
+     a = ap.parse_args()
+     nb.set_num_threads(a.threads)
+     t0 = time.time()
+@@ -472,6 +473,7 @@
+     worst_branch = 1.0
+     worst_conv = 1.0
+     nsteps = 0
++    n_acc_checked = 0
+     for j in range(J):
+         cf = sorted(glob.glob(os.path.join(a.run, f"nu_{j:04d}_c*.npz")), key=lambda p: int(p.split("_c")[-1][:-4]))
+         for p in cf:
+@@ -503,6 +505,13 @@
+             else:
+                 src = acc if acc is not None and accn == k1 else pw[k1]
+                 tgt = load_law(st, "out_") if k3 == n else None
++                # extension: intermediate accumulator witnesses from a frozen sidecar file
++                if tgt is None and a.acc_dir is not None:
++                    sc = np.load(os.path.join(a.acc_dir, f"acc_{j:04d}.npz"))
++                    if f"acc{k3}_m" in sc.files:
++                        tgt = load_law(sc, f"acc{k3}_")
++                        valid(*tgt, f"acc{k3} level {j}")
++                        n_acc_checked += 1
+                 need(tgt is not None, "intermediate accumulator not saved")
+                 worst_conv = min(worst_conv, check_conv(src, pw[k2], tgt))
+                 acc, accn = tgt, k3
+@@ -522,6 +531,8 @@
+     rep["checks"]["branch_min_slack"] = worst_branch
+     rep["checks"]["conv_min_knot_slack"] = worst_conv
+     rep["steps_checked"] = nsteps
++    rep["acc_witnesses_checked"] = n_acc_checked
++    rep["acc_dir"] = a.acc_dir
+     rep["verdict"] = "ALL CHECKS PASSED"
+     rep["time_s"] = time.time() - t0
+     rep["versions"] = {"python": sys.version, "mpmath": mpmath.__version__, "numpy": np.__version__,
